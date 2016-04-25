@@ -2,7 +2,7 @@ This is the "MENU" key: http://en.wikipedia.org/wiki/Menu_key
 
 Place d3d9.dll in you NFS directory (where speed2.exe is)
 
-Versions 1.0 (not tested), 1.1 (not testet), 1.2 (tested) supported.
+Versions 1.0 (not tested), 1.1 (not tested), 1.2 (tested) supported.
 
 Download newest version always from http://gpb.googlecode.com/
 
@@ -50,6 +50,6 @@ Live Replay:
 
 Go to PC #2 , go in-game, hit MENU+END to enable listening, NFS will freeze.
 
-Go to PC #1 , go in-game, hit MENU+HOME to start sending, NFS will nfreeze on PC 2
+Go to PC #1 , go in-game, hit MENU+HOME to start sending, NFS will unfreeze on PC 2
 
 make sure you change the destination PC in the source and recompile.
