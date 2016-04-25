@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="D3D9">
+      <UniqueIdentifier>{9ae3016e-5310-4986-8c0f-04920b5da7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{e1983363-e550-4bd3-9283-05dcc66ab1ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CDirect3DData.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="d3drender.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyIDirect3D9.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="proxyIDirect3DDevice9.h">
+      <Filter>D3D9</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="stdtypes.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="network\ActiveSocket.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\Host.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\PassiveSocket.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\SimpleSocket.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="network\StatTimer.h">
+      <Filter>network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CDirect3DData.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3drender.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyIDirect3D9.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyIDirect3DDevice9.cpp">
+      <Filter>D3D9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d9.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="network\ActiveSocket.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\PassiveSocket.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="network\SimpleSocket.cpp">
+      <Filter>network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="d3d9.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NFSMOD.def" />
+  </ItemGroup>
+</Project>
